@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <link rel="stylesheet" href="css/Style.css">
 </head>
 <body>
     <header>
@@ -30,89 +31,100 @@
 </div>
     <div class="About_Me">
         <h2>Обо мне</h2>
-        <hr width="70px" align="left">
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+        <hr align=center>
+        <img src="img/MyPhoto.jpg">
+        <p align="center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
         <p>Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
         <input type="submit" value="Скачать резюме">
     </div>
+
     <div class="What_I_Can">
         <h3>Что я умею</h3>
-        <hr width="70px" align="left">
+        <hr align="center">
         <ol>
-            <li>Веб-дизайн<br> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</li>
-            <li>Разработка<br> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</li>
-            <li>CEO-оптимизация<br> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</li>
-            <li>Маркетинг<br> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</li>
+            <li><img src="img/PC.png"><br>  Веб-дизайн <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p></li>
+            <li><img src="img/symbol.png"><br></b>Разработка <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p></li>
+            <li><img src="img/rocket.png"><br>CEO-оптимизация <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p></li>
+            <li><img src="img/gramophone.png"><br>Маркетинг<p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p></li>
         </ol>
     </div>
+
     <div class="Cases">
         <h3>Кейсы</h3>
-        <hr align="left" width="70px">
+        <hr align="center">
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
-        <img src="img/Case.png" alt="Здесь должен был быть кейс" border="2px">
-        <h4>Название проекта</h4>
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
-        <h4>CLIENT</h4>
-        <p>Какая-то компания</p>
-        <h4>WEBSITE</h4>
-        <p>http://www.somedamain.com</p>
-        <input type="submit" value="VISIT LIVE SITE">
+        <img src="img/Case.jpg" alt="Здесь должен был быть кейс" class="CaseIMG">
+        <ul>
+            <li>CLIENT<p>Какая-то компания</p></li>
+            <li class="CaseName">Название проекта<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p></li>
+            <li>WEBSITE<p>http://www.somedamain.com</p></li>
+        </ul>
+        <input type="submit" value="VISIT LIVE SITE" >
     </div>
+
     <div class="Cost">
+        <h2>Рассчет стоимости</h2>
+        <div class="calc">
         <h3>ТИП САЙТА</h3>
         <select>
-            <option>Выберите тип сайта</option>
+            <option>Выберите тип сайта...</option>
             <option>Визитка</option>
             <option>Корпоративный</option>
         </select>
         <h3>ДИЗАЙН</h3>
         <select>
-            <option>Выберите дизайн сайта</option>
+            <option>Выберите дизайн сайта...</option>
             <option>1</option>
             <option>2</option>
             <option>3</option>
         </select>
         <h3>АДАПТИВНОСТЬ</h3>
         <select>
-            <option>Выберите адаптивноть сайта</option>
+            <option>Выберите адаптивноть сайта...</option>
             <option>Адаптивный</option>
             <option>Неадаптивный</option>
         </select>
-        <hr align="left" width="200px">
-        <h4>Сроки:</h4>
-        <h4>Стоимость:</h4>
-
+            </div>
+        <hr align="center">
+        <div class="calc">
+            <p>Сроки: 0</p>
+            <p>Стоимость: 0</p>
+        </div>
     </div>
+
     <div class="Stat">
         <h3>НЕМНОГО СТАТИСТИКИ</h3>
-        <hr align="left" width="70px">
+        <hr align="center">
         <ul>
-            <li>120<br> СЧАСТИВЫХ КЛИЕНТОВ</li>
-            <li>4600<br> ЧАСОВ РАБОТЫ</li>
-            <li>340<br> ПРОЕКТОВ ЗАВЕРШЕНО</li>
-            <li>23 <br>НАГРАД ПОЛУЧЕНО</li>
+            <li><img src="img/smile.png"><br><span>120</span><br> СЧАСТИВЫХ КЛИЕНТОВ</li>
+            <li><img src="img/symbol2.png"><br><span>4,600</span><br> ЧАСОВ РАБОТЫ</li>
+            <li><img src="img/check.png"><br><span>340</span><br> ПРОЕКТОВ ЗАВЕРШЕНО</li>
+            <li><img src="img/goblet.png"><br><span>23</span><br>НАГРАД ПОЛУЧЕНО</li>
         </ul>
 
     </div>
+
     <div class="Reviews">
         <h3>ОТЗЫВЫ</h3>
-        <hr align="left" width="70px">
+        <hr align="center"><img src="img/Photo.jpg">
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
-        <p><b>Михаил</b>, Ген. директор ПАО "Газпром"</p>
+        <span><b>Михаил</b>, Ген. директор ПАО "Газпром"</span>
     </div>
+
     <div class="Contacts">
         <h3>МОИ КОНТАКТЫ</h3>
-        <hr align="left" width="70px">
+        <hr align="center">
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
-        <ul>
-            <li>Санкт-Петербург<br>Невский проспект 11</li>
-            <li>Info@companyname.com</li>
-            <li>+7 999 999-99-99</li>
-        </ul>
+        <p class="way"><img src="img/geo.png"><br>Санкт-Петербург<br>Невский проспект 11</p>
+        <p class="way"><img src="img/mail.png"><br>Info@companyname.com</p>
+        <p class="way"><img src="img/phone.png"><br>+7 999 999-99-99</p>
+        <div class="Sms">
+        <p class="sms">оставьте мне сообщение</p>
         <input type="text" placeholder="Введите ваше имя">
         <input type="text" placeholder=Email>
         <textarea type="text" placeholder="Сообщение"></textarea><br>
         <input type="submit" value="Отправить">
+        </div>
     </div>
 </body>
 </html>
